@@ -12,7 +12,7 @@ except ImportError:
     os.system('pip2 install requests')
 
 try:
-	request = requests.get("https://www.google.com/search?q=tahmid+rayat", timeout=3)
+	request = requests.get("https://www.google.com/search?q=faisal+ahmed", timeout=3)
 except (requests.ConnectionError, requests.Timeout) as exception:
     print("[!] No internet connection [!]")
     sys.exit()
@@ -39,7 +39,7 @@ logo = """
 \033[1;32m | | | (_| |   <  __/ \033[1;33m | |  | | (_| | | |  __/ |   
 \033[1;32m |_|  \__,_|_|\_\___| \033[1;33m |_|  |_|\__,_|_|_|\___|_|   
 
-\033[1;36m [\033[1;37m+\033[1;36m]\033[1;32m CREATED BY HTR-TECH \033[1;31m(\033[1;33mTAHMID RAYAT\033[1;31m)
+\033[1;36m [\033[1;37m+\033[1;36m]\033[1;32m COPIED BY BD-HOKAR \033[1;31m(\033[1;33mFAISAL AHMED\033[1;31m)
 """
 
 system("clear")
@@ -83,7 +83,7 @@ else:
     sleep(3)
     hprint(W + " Process can take some time !!")
     print ('')
-    print (Y + " Visit www.github.com/htr-tech for More Tools" + W)
+    print (Y + " Visit www.github.com/Faisalvai for More Tools" + W)
     print ('')
 
 
